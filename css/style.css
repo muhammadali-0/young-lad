@@ -1,0 +1,646 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike,strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+  margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+body{font-family: 'Poppins', sans-serif;}
+.bck_black{
+  background-color: black !important;
+  color: white !important;
+}
+.color_grey{
+  color: #666666 !important;
+}
+.color_lgrey{
+  color: #999999;
+}
+.color_yellow{
+  color: #f5d700 !important;
+}
+h1{
+  font-size: 90px;
+}
+h2{
+  font-size: 124px;
+}
+h3{
+  font-size: 50px;
+}
+h4{
+  font-size: 25px;
+}
+h4 span{
+  font-size: 67px;
+}
+h5{
+  font-size: 67px;
+}
+h6{
+  font-size: 30px;
+}
+.p_bg{
+  font-size: 20px;
+}
+p{
+  font-size: 18px !important;
+}
+.p_md{
+  font-size: 16px !important;
+}
+.p_sm{
+  font-size: 15px !important;
+}
+.medium{
+  font-weight: 500;
+}
+.bold{
+  font-weight: 700;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.capatalize{
+  text-transform: capitalize;
+}
+.italic{
+  font-style: italic;
+}
+.pad-90{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.pad-70{
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+}
+.pad-b335{
+  padding-top: 180px;
+  padding-bottom: 335px;
+}
+.pad-t70{
+  padding-top: 70px;
+  padding-bottom: 98px;
+}
+.pad-t80{
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.pad-t60{
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.pad-b80{
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.pad-t190{
+  padding-top: 190px;
+  padding-bottom: 170px;
+}
+a button{
+  border: none !important;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #f5d700 !important;
+  transition: ease-in-out .2s;
+}
+a button:hover{
+  box-shadow: 0px 0px 50px 0px rgba(0,0,0,.1);
+  background-color: white !important;
+}
+.lh{
+  line-height: 1.5;
+}
+/* ====================================== Header ================================================ */
+.header a{
+  color: white !important;
+}
+.header a:hover{
+  color: black !important;
+}
+.header{
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: contain;
+}
+.togle{
+  background-image: url('../images/yellow.png');
+  width: 16%;
+  text-align: center;
+  padding-bottom: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0 !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 22%;
+  padding-top: 50px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #f9b103;
+  opacity: 0.8;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+.sidenav{
+  padding-top: 20%;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.togle span{
+  font-size:30px;cursor:pointer;
+}
+.togle i{
+  font-size: 25px;
+}
+header .row i{
+  color: #f5d700; 
+  font-size: 50px;
+  cursor: pointer;
+}
+/* ====================================== Burger ================================================ */
+.burger .yellow-back{
+  position: absolute;
+  right: 0px;
+  top: -70px;
+}
+.burger-img{
+  position: absolute;
+  top: 70px;
+}
+.burger h2{
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+/* ====================================== Category ================================================ */
+.category{
+  background-image: url('../images/background-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 120px;
+}
+.category_inner{
+  background-color: white;
+  border: 0 !important;
+  text-align: center;
+}
+.normal-img{
+  width: 80px !important;
+  height: 82px !important;
+}
+.black-img{
+  width: 80px !important;
+  height: 82px !important;
+}
+.pic:hover{
+  background-color: #f5d700;
+  border-radius: 80px;
+  transform: rotate(335deg);
+  width: 60%;
+  margin: auto;
+}
+.pic:hover .normal-img{
+  display: none;
+}
+.pic:hover .black-img{
+  display: inline-block !important;
+  transform: rotate(-335deg);
+}
+/* ====================================== Pizza ================================================ */
+.pizza .yellow-back{
+  position: absolute;
+  left: 0px;
+  top: 180px;
+}
+.pizza-img{
+  position: absolute;
+  left: 100px;
+}
+.pizza h2{
+  position: absolute;
+  top: 300px;
+  left: -70px;
+  transform: rotate(270deg);
+}
+.pic-1:hover{
+  background-color: #f5d700;
+  border-radius: 80px;
+  transform: rotate(335deg);
+  width: 50%;
+  align-items: center;
+}
+.pic-1:hover .normal-img-1{
+  display: none;
+  margin: auto;
+}
+.pic-1:hover .black-img-1{
+  display: inline-block !important;
+  transform: rotate(-335deg);
+  margin: auto;
+  padding-left: 30px;
+  width: 80% !important;
+}
+.normal-img-1{
+  width: 80px !important;
+  height: 82px !important;
+}
+.black-img-1{
+  width: 80px !important;
+  height: 82px !important;
+}
+/* ====================================== Member ================================================ */
+.card{
+  position: relative;
+  background-image: url('../images/card.png');
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 50px 0px rgba(0,0,0,.1);
+  width: 100% !important;
+  border-radius: 10px;
+  border:none !important;
+  transition: ease-in-out .2s;
+  height: 410px;
+  padding-right: 20px !important;
+}
+.card:hover{
+  background-image: url('../images/background-2.png');
+}
+.card:hover h4{
+  color: white !important;
+}
+.card_top{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+.card h6{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+.card ul{
+  position: relative;
+  top: 180px;
+  left: 50px;
+  text-align: left;
+}
+/* ====================================== Testimonials ================================================ */
+.testimonials{
+  background-image: url('../images/background-3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonial_card{
+  padding-top: 140px;
+  padding-bottom: 125px;
+  background-color: white;
+  border-radius: 7px;
+}
+.testimonials .media img{
+  width: 20%;
+}
+.testimonials .media{
+  align-items: center !important;
+}
+.testimonials .owl-dots{
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  display: flex;
+}
+.testimonials .owl-dot span{
+  border-radius: 100% !important;
+  border: none !important;
+  background-color: black !important;
+  height: 5px !important;
+  width: 5px !important;
+}
+.testimonials .active> span{
+  background-color: transparent !important;
+  border: 1px solid black !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+/* ====================================== Tacos ================================================ */
+.tacos{
+  padding-bottom: 222px;
+}
+.pad-t135{
+  padding-top: 135px;
+}
+.tacos .yellow-back{
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+.tacos-img{
+  position: absolute;
+  right: 120px;
+}
+.tacos h2{
+  position: absolute;
+  top: 150px;
+  right: -50px;
+  transform: rotate(90deg);
+}
+.tacos a button{
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+}
+.tacos input{
+  border: none !important;
+  box-shadow: 0px 0px 50px 0px rgba(0,0,0,.1);
+  border-radius: 40px !important;
+}
+/* ====================================== Footer ================================================ */
+footer{
+  background-color: #f5d700 !important;
+}
+.circle{
+  background-color: black;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: ease-in-out .2s;
+}
+.circle:hover{
+  background-color: white !important;
+  box-shadow: 0px 1px 13px 0px rgba(0,0,0,0.3);
+}
+.circle:hover a{
+  color: #e3a600 !important;
+}
+footer li{
+  display: inline-block;
+}
+footer a{
+  color: black;
+}
+footer a:hover{
+  color: #e3a600;
+}
+.circle a{
+  color: #f5d700 !important;
+}
+/* ====================================== Bottom ================================================ */
+/* ====================================== Media Queries ================================================ */ 
+@media screen and (max-width:1600px){
+  .pad-b335{
+    padding-top: 130px;
+    padding-bottom: 250px;
+  }  
+}
+@media screen and (max-width:1200px){
+  .pad-b335{
+    padding-top: 80px;
+    padding-bottom: 190px;
+  }
+  h1{
+    font-size: 60px;
+  }
+  .burger .yellow-back{
+    position: absolute;
+    right: 0px;
+    top: 100px;
+  }
+  .burger-img{
+    position: absolute;
+    top: 180px;
+  }
+  .burger h2{
+    position: absolute;
+    top:100px;
+    right: 0px;
+  }
+  .pizza .yellow-back{
+    position: absolute;
+    right: 0px;
+    top: 100px;
+  }
+  .pizza-img{
+    position: absolute;
+    top: 30px;
+  }
+  .pizza h2{
+    position: absolute;
+    top:200px;
+    left: -70px;
+  }
+}
+@media screen and (max-width:991px){
+  .header{
+    background-image: url('../images/banner-bg.png');
+    background-size: cover;
+    background-position: center bottom;
+    color: white;
+    padding-bottom: 80px;
+  }
+  header .color_grey{
+    color: white !important;
+  }
+  .togle{
+    color:black !important;
+  }
+  .burger .yellow-back{
+    display: none;
+  }
+  .burger-img{
+    position: static;
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+  }
+  .burger h2{
+    font-size: 70px;
+    position: static;
+    text-align: center;
+  }
+  .category{
+    margin-top: 0px;
+  }
+  .pizza .yellow-back, .tacos .yellow-back{
+    display: none;
+  }
+  .pizza-img, .tacos-img{
+    position: static;
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+  }
+  .pizza h2, .tacos h2{
+    font-size: 70px;
+    position: static;
+    text-align: center;
+    transform: rotate(360deg);
+    margin-top: -50px !important;
+  }
+  .card{
+    padding: 170px 20px 40px 20px;
+    height: 100%;
+  }
+  .card_top{
+    position: static;
+  }
+  .card ul{
+    position: static;
+    margin-top: 25px;
+  }
+  .card:hover{
+    height: 100%;
+    background-size: cover;
+  }
+}
+@media screen and (max-width:768px){
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 50px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  h4{
+    font-size: 23px;
+  }
+  h4 span{
+    font-size: 40px;
+  }
+  h5{
+    font-size: 40px;
+  }
+  h6{
+    font-size: 20px;
+  }  
+  .card_top{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  .card h6{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  }
+  .card ul{
+    position: relative;
+    top: 180px;
+    left: 50px;
+    text-align: left;
+  }
+  .card{
+    height: 410px;
+    padding: 0px;
+  }
+  .pad-90{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .pad-70{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .pad-b335{
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
+  .pad-t70{
+    padding-top: 35px;
+    padding-bottom: 50px;
+  }
+  .pad-t80{
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .pad-t60{
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+  .pad-b80{
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .pad-t190{
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+  .pic-1:hover{
+    background-color: transparent !important;
+    transform: rotate(0deg);
+  }
+  .pic-1:hover .normal-img-1{
+    display: inline-block !important;
+    margin: auto;
+  }
+  .pic-1:hover .black-img-1{
+    display: none !important;
+  }
+  .normal-img-1{
+    width: 48px !important;
+    height: 48px !important;
+  }
+  .tacos{
+    padding-bottom: 60px;
+  }
+  .pad-t135{
+    padding-top: 25px;
+  }
+  .testimonial_card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }  
+}
+@media screen and (max-width:576px){
+  .burger-img{
+    position: static;
+    display: inline-block;
+    width: 100%;
+  }
+  .card{
+    padding: 170px 0 40px 20px;
+    height: 100%;
+  }
+  .card_top{
+    position: static;
+  }
+  .card ul{
+    position: static;
+    margin-top: 25px;
+  }
+  .card:hover{
+    height: 100%;
+    background-size: cover;
+  }  
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
